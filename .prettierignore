@@ -3,6 +3,7 @@ build
 coverage
 node_modules
 dist
+*.md
 
 # Ignore all HTML files:
 *.html
