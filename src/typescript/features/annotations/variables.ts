@@ -25,6 +25,10 @@ let point:{x:number; y:number;} = {
 }
 
 // Function
+// everything after and on the right side of the equal side is the actual code.
+
+// everything between colon and equal is the type declaration. even though it looks like a function,
+// is just a description of a function.
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
