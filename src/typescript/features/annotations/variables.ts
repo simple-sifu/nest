@@ -9,3 +9,18 @@ let now: Date = new Date();
 
 // Arrays
 let colors: string[] = ['red', 'green', 'blue'];
+let myNumbers: number[] = [1,4,5];
+let truths: boolean[] = [true, false, true, true];
+
+// Classes
+class Car {
+
+}
+let car:Car = new Car();
+
+// Object Literal
+let point:{x:number; y:number;} = {
+  x: 10,
+  y: 20
+}
+
