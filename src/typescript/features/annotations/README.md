@@ -18,10 +18,11 @@ Type Annotations - when to use
 
 2.  Function returns the any type and we need to clarify the value.
 
-    
-    >   const json = '{"x":10, "y":20}';
-    >   let coordinates: {x:number; y:number;} = JSON.parse(json);
-    >   console.log(coordinates); // {x: 10, y: 20}
+    `
+        const json = '{"x":10, "y":20}';
+        let coordinates: {x:number; y:number;} = JSON.parse(json);
+        console.log(coordinates); // {x: 10, y: 20}
+    `
     
 
 3.  When we want a variable to have a type that can't be inferred
@@ -31,7 +32,7 @@ Type Annotations - when to use
 
         for (let i = 0; i < numbers.length; i++){
           if (numbers[i] > 0){
-          numberAboveZero = numbers[i];
+              numberAboveZero = numbers[i];
           }
         }
     `
