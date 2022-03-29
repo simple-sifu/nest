@@ -17,6 +17,7 @@ Type Annotations - when to use
     `
 
 2.  Function returns the any type and we need to clarify the value.
+
     `
         const json = '{"x":10, "y":20}';
         let coordinates: {x:number; y:number;} = JSON.parse(json);
