@@ -6,3 +6,6 @@ tsc index.ts
 node index.js
 
 ts-node index.ts
+
+Type annotations - we tell typescript the type
+Type inferences - Typescript guesses the type
