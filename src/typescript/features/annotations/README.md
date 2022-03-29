@@ -20,9 +20,7 @@ Type Annotations - when to use
 
     `
          const json = '{"x":10, "y":20}';
-
          let coordinates: {x:number; y:number;} = JSON.parse(json);
-         
          console.log(coordinates); // {x: 10, y: 20}
     `
 
