@@ -13,17 +13,14 @@ Type Annotations - when to use
           if (words[i] === 'green'){
             foundWord = true;
           }
-        }
-    `
+        }`
 
 2.  Function returns the any type and we need to clarify the value.
 
     `
         const json = '{"x":10, "y":20}';
         let coordinates: {x:number; y:number;} = JSON.parse(json);
-        console.log(coordinates); // {x: 10, y: 20}
-        
-    `
+        console.log(coordinates); // {x: 10, y: 20}`
     
 
 3.  When we want a variable to have a type that can't be inferred
