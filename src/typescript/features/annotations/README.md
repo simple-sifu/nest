@@ -13,7 +13,8 @@ Type Annotations - when to use
           if (words[i] === 'green'){
             foundWord = true;
           }
-        }`
+        }
+    `
 
 2.  Function returns the any type and we need to clarify the value.
 
