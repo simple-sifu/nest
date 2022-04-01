@@ -29,6 +29,8 @@ const throwError = (message: string): never => {
   throw new Error(message);
 }
 
+// return string becoz their is only a slight chance
+// it will return nothing
 const throwError0 = (message: string): string => {
   if (!message) {
     throw new Error(message);
@@ -42,3 +44,32 @@ const throwError1 = (message: string): void => {
   }
 }
 
+const todaysWeather = {
+  date: new Date(),
+  weather: 'sunny'
+};
+
+// const logWeather = (forecast: { date: Date, weather: string}) => {
+//   console.log(forecast.date);
+//   console.log(forecast.weather);
+// };
+
+// ES2015
+// const logWeather = ({date, weather}) => {
+//   console.log(date);
+//   console.log(weather);
+// }
+
+
+const logWeather = ({
+  date, 
+  weather
+}: { 
+  date: Date;
+  weather: string;
+}): void => {
+  console.log(date);
+  console.log(weather);
+};
+
+logWeather(todaysWeather);
