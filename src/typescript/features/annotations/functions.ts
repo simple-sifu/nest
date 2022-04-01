@@ -10,11 +10,11 @@ const subtract = (a: number, b: number): number => {
   return a - b;
 }
 
-// anonymous functions
 function divide(a: number, b: number): number {
   return a / b;
 }
 
-const multiply = (a: number, b: number): number => {
+// anonymous functions
+const multiply = function (a: number, b: number): number {
   return a * b;
 }
