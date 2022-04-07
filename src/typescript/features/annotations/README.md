@@ -49,3 +49,10 @@ d. can contain multiple different types.
 a. create functions that accept arguments that are typed with interfaces. As much as possible.
 
 b. Objects/classes can decide to implement a given interface to work with a function
+
+7. Class Method Modifiers
+```
+a. public - called anywhere, any time
+b. private - only called by other methods in this class.
+c. protected - only called by other methods in this class or by other methods in child classes.
+``` 

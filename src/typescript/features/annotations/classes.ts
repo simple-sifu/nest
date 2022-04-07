@@ -1,7 +1,10 @@
 class Vehicle {
+  color: string = 'red';
+
   drive(): void {
     console.log('chugga chugga')
   }
+
   honk(): void {
     console.log('honk honk')
   }
@@ -28,4 +31,5 @@ class Car1 extends Vehicle {
 
 const car1 = new Car1();
 car1.drive();
-car.honk();
+car1.honk();
+console.log("color", car1.color);
