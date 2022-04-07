@@ -42,4 +42,4 @@ c. will give us autocomplete on parameters passed in when using 'map', 'reduce',
 d. can contain multiple different types.
 ```
 
-5. Tuple - Array-like structure where each element represents some property of a record
+5. Tuple - Array-like structure where each element represents some property of a record. Values of fixed set of properties are placed in specific order.
