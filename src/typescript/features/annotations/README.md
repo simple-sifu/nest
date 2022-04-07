@@ -35,7 +35,9 @@ for (let i = 0; i < numbers.length; i++){
 }
 ```
 4. How does Typescript help us with Arrays.
-  a. can do Type Inference by extracting values from array.
-  b. can prevent us from adding incompatible values to the array.
-  c. can help with 'map', 'reduce', 'forEach' function
-  d. can contain multiple different types.
+```
+a. can do Type Inference by extracting values from array.
+b. can prevent us from adding incompatible values to the array.
+c. can help with 'map', 'reduce', 'forEach' function
+d. can contain multiple different types.
+```
