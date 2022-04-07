@@ -46,6 +46,6 @@ d. can contain multiple different types.
 
 6. Interfaces - General strategy for Reusable Code in TS
 ```
-a. create functions that accept arguments that are typed with interfaces
+a. create functions that accept arguments that are typed with interfaces. As much as possible.
 
 b. Objects/classes can decide to implement a given interface to work with a function
