@@ -43,3 +43,9 @@ d. can contain multiple different types.
 ```
 
 5. Tuple - Array-like structure where each element represents some property of a record. Values of fixed set of properties are placed in specific order.
+
+6. Interfaces - General strategy for Reusable Code in TS
+```
+a. create functions that accept arguments that are typed with interfaces
+
+b. Objects/classes can decide to implement a given interface to work with a function

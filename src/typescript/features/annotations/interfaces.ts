@@ -45,3 +45,15 @@ const printSummary = (item: Reportable): void => {
 }
 
 printSummary(oldCivic);
+
+const drink1 = {
+  color: 'brown',
+  carbonated: true,
+  sugar: 40,
+  summary(): string {
+    return `My drink has ${this.sugar} grams of sugar`;
+  }
+};
+
+printSummary(drink1);
+
