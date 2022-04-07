@@ -34,3 +34,14 @@ const printVehicle2 = (vehicle: Vehicle): void => {
   console.log(vehicle.summary());
 }
 printVehicle2(oldCivic);
+
+
+interface Reportable {
+  summary(): string;
+}
+
+const printSummary = (item: Reportable): void => {
+  console.log(item.summary())
+}
+
+printSummary(oldCivic);
