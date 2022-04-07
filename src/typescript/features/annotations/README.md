@@ -38,6 +38,8 @@ for (let i = 0; i < numbers.length; i++){
 ```
 a. can do Type Inference by extracting values from array.
 b. can prevent us from adding incompatible values to the array.
-c. can help with 'map', 'reduce', 'forEach' function
+c. will give us autocomplete on parameters passed in when using 'map', 'reduce', 'forEach' function 
 d. can contain multiple different types.
 ```
+
+5. Tuple - Array-like structure where each element represents some property of a record
