@@ -5,6 +5,7 @@ const profile = {
     lat: 0,
     lng: 15
   },
+  // functions inside objects
   setAge(age: number): void {
     this.age = age;
   }
